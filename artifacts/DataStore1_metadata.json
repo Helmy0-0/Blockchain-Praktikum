@@ -9,23 +9,47 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "nama",
+						"name": "_name",
 						"type": "string"
-					},
+					}
+				],
+				"name": "doSomething",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nama",
+				"outputs": [
 					{
 						"internalType": "string",
-						"name": "alamat",
+						"name": "",
 						"type": "string"
-					},
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "tanggal_lahir",
+						"name": "",
 						"type": "uint256"
-					},
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "jenis_kelamin",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
 					}
 				],
 				"name": "storeData",
@@ -47,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/tugas1.sol": "DataStore"
+			"contracts/dataStore.sol": "DataStore1"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -61,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/tugas1.sol": {
-			"keccak256": "0xaa10f7649dcf04bff799f27a30c670e0d8a7eeb1495521e515c9bf2d5b6c3c7a",
+		"contracts/dataStore.sol": {
+			"keccak256": "0xe0cb14501a3deca2d55af68323f4bbff81c39348f6d7591d4107f62307868740",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://35d443701909baaf974a466896217f8e6a2757e66597924eec0f8c84a06d321f",
-				"dweb:/ipfs/QmeyBgtxohHBDFbsvrXKoVFAi95s2Eq2DrixmhgA8gT1JH"
+				"bzz-raw://def82ffefaeb6f9283c6b659418b65cf08c3a912de29abad8127b3fd701ee44a",
+				"dweb:/ipfs/QmW8nLHdPUJ8sZgU6z3grPKpjfZxwSmjUFXy5w3fdK6Z9X"
 			]
 		}
 	},
